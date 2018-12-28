@@ -8,8 +8,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #1eb4da;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,4 +29,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sort-button {
+  margin-bottom: 5px;
+}
+
+.news-container {
+  /* width: 100px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* @import "setting"; */
+
+.news-button {
+    flex: 1;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    font-size: 15px;
+    margin: 15px
+}
+
+.news-wrapper {
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.newsList-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+}
